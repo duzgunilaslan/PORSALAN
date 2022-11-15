@@ -72,6 +72,7 @@ for j in find_date_range(start_date,end_date):   #Bist bültenindeki url oluştu
 
 unzip_files()
 df = read_files()
+print(df.iloc[[0]])
 df.to_excel("deneme.xlsx")
 
 
